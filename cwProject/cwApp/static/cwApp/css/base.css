@@ -1,0 +1,54 @@
+/*basic page formatting*/
+div{
+    display: grid;
+    margin: 1%;
+    border: 1px solid black;
+    background: lightgray;
+}
+/*title section styling and formatting*/
+article{
+    padding: 5%;
+    margin-top: 10%;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+    width: 100px;
+    border-right: solid 3px black;
+}
+/*text section styling and formatting*/
+section{
+    padding: 0 1% 1% 1%;
+    margin: 0 10% 1% 1%;
+    grid-column: 2;
+    grid-row: 1;
+}
+/*button section styling and formatting*/
+footer{
+    padding: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    grid-column: 2/3;
+    grid-row: 2;
+
+}
+/*button styling and formatting*/
+button{
+    border-radius: 3px;
+    padding: 1%;
+    height: auto;
+    width: auto;
+    background: gray;
+    border: 1px solid black;
+}
+/*larger title font styling and formatting*/
+h1{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+/*smaller title font styling and formatting*/
+h2{
+    padding: 0;
+    margin: 0;
+}

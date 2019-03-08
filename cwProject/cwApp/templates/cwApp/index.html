@@ -1,0 +1,28 @@
+{% extends 'cwApp/base.html' %}
+<!--page one-->
+{% block style %}
+<style>
+    div{
+        background: lightgray;
+    }
+</style>
+{% endblock %}
+
+{% block article %}
+<h2>Page </h2>
+<h1>One</h1>
+{% endblock %}
+
+{% block section %}
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum neque quis turpis sollicitudin rhoncus.
+    Suspendisse sodales faucibus velit, eget ullamcorper neque condimentum eu. Praesent vitae felis nibh. Nulla id felis
+    bibendum dui ultrices rutrum quis eu felis. Duis eros diam, gravida a bibendum id, posuere non ex. Pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque venenatis vestibulum velit,
+    quis pellentesque massa pretium et. Integer a viverra turpis. Cras at molestie mi. Nulla placerat, felis id cursus
+    semper, ipsum quam dignissim ipsum, nec mattis tellus odio id quam. Curabitur congue elit vitae purus egestas,
+    accumsan tempor massa vestibulum.</p>
+{% endblock %}
+
+{% block footer %}
+<a href="{% url 'page_two' %}"><button>Next </button></a>
+{% endblock %}

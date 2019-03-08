@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CW</title>
+    {% load static %}
+    <link rel="stylesheet" href="../../static/cwApp/css/base.css">
+
+</head>
+<!--style page-->
+<body>
+<!--placeholder to change background color-->
+{% block style %}
+
+{% endblock %}
+<div>
+
+<article>
+    {% block article %}
+    <p>article</p>
+    {% endblock %}
+</article>
+
+<section>
+    {% block section %}
+    <p>section</p>
+    {% endblock %}
+</section>
+
+<footer>
+    {% block footer %}
+    <p>footer</p>
+    {% endblock %}
+</footer>
+
+</div>
+
+
+</body>
+</html>
